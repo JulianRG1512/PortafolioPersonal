@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Css/index.css">
+    <link rel="stylesheet" href="/Css/habilidades2.css">
+    <link rel="stylesheet" href="/Css/habilidades3.css">
+    <link rel="stylesheet" href="/Css/habilidades4.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css'>
+    
+    <title>Portafolio</title>
+</head>
+
+<body>
+    
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Julián Rodríguez Gómez</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar (this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar (this)">SOBRE MI</a></li>
+                            <li><a href="#estudios" onclick="seleccionar (this)">ESTUDIOS</a></li>
+                            <li><a href="#habilidades" onclick="seleccionar (this)">HABILIDADES</a></li>
+                            <li><a href="#proyectos" onclick="seleccionar (this)">PROYECTOS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar (this)">CONTÁCTEME</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                
+
+                <div class="redes">
+                    <a href="mailto:julianrg11@hotmail.com" class="email"><i class="bi bi-envelope-at"></i></a>
+                    <a href="https://github.com/JulianRG1512" target="_blank" class="github"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/juli%C3%A1n-rodr%C3%ADguez-g%C3%B3mez/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://wa.me/573012736389" target="_blank" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+                  </div>
+
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy,Julián Rodríguez Gómez <br> Desarrollador de Software</h2>
+                <a href="#proyectos">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+    
+    
+    <main>
+
+        <!-- SECCIÓN S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="/imagenes/fotoperfil.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Julián Rodríguez Gómez</span> </h2>
+            <h3>Fecha de Nacimiento: 10/06/1980</h3> <img class="bandera" src="/imagenes/colombia.png" alt="">
+            <h3><b>Ingeniero de Sistemas</b></h3>
+            <p>Con experiencia en auditoria interna de gestión en el sector público, lo que me ha permitido adquirir habilidades como, <b> pensamiento analítico, diplomacia en la comunicación, integridad, objetividad , trabajo en equipo, aprendizaje continuo, redacción,</b> entre otras.</p>
+            <p> Ex-participante de MisiónTic 2022 y actual participante del programa ONE (Oracle Next Education), impartido por Oracle y Alura Latam con el fin de formarme como desarrollador de software que es mi gran pasión y a lo que deseo dedicarme de tiempo completo, estas experiencias me han permitido adquirir conocimientos en: <b> Fundamentos de Programación, Desarrollo de Software, JavaScript, Html, Css, React, Git, Jira y metodología ágil Scrum</b> y asi mismo ponerlas en práctica mediante los diferentes challenges desarrollados, adicional a las habilidades técnicas adquiridas, me han permitido reforzar y adquirir nuevas soft skills</p>
+            <div id="wrap">
+                <a href="/Doc/HV_Julian Rodriguez Gomez.pdf" class="btn-slide" target="_blank">
+                <span class="circle"><i class="fa fa-file-text" aria-hidden="true"></i></span>
+                <span class="title">Descarga CV</span>
+                <span class="title-hover">Click Aquí</span>
+                </a>
+            </div>   
+            <div class="codigo-qr" >
+                <img id="qr" src="imagenes/qr-code.svg" alt="">
+            </div>  
+        </div>
+        
+    </section>
+
+                    <section id="estudios">
+                        <div class="descripcion">
+                            <p class="titulo-seccion">Estudios</p>
+                            <p> Cuento con estudios profesionales y cursos en:</p>
+                        </div>
+                              
+                        <div class="container">
+                            <div class="card">
+                                <div class="face face1">
+                                    <div class="content">
+                                        <img src="/imagenes/estudios/Diploma.jpg" alt="">
+                                        <h3>Profesional</h3>
+                                    </div>
+                                </div>
+                                <div class="face face2">
+                                    <div class="content">
+                                        <p><b>Fundación Universitaria San Martín</b></p>
+                                        <p><b>2012</b></p><br>
+                                        <p>Ingeniero de Sistemas.</p>
+                                        <a href="/Doc/Diploma.pdf" target="_blank"">Ver</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="card">
+                                <div class="face face1">
+                                    <div class="content">
+                                        <img class="iso" src="/imagenes/estudios/diplomado.jpg" alt="">
+                                        <h3>Diplomado</h3>
+                                    </div>
+                                </div>
+                                <div class="face face2">
+                                    <div class="content">
+                                        <p><b>EUD - SGS Colombia S.A.S</b></p>
+                                        <p><b>2021</b></p><br>
+                                        <p>Diplomado Seguridad de la Información.</p><br>
+                                        <p>Auditor Interno ISO/IEC 27001:2013 SGSI.</p>
+                                        <a href="/Doc/DiplomadoSI.pdf" target="_blank"">Ver</a>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="card">
+                                <div class="face face1">
+                                    <div class="content">
+                                        <img src="/imagenes/estudios/Scrum.jpg" alt="">
+                                        <h3>Scrum</h3>
+                                    </div>
+                                </div>
+                                <div class="face face2">
+                                    <div class="content">
+                                        <p><b>CertiProf</b></p>
+                                        <p><b>2023</b></p>
+                                        <p>Scrum Foundation</p>
+                                        <p><b>Sena Virtual</b></p>
+                                        <p><b>2022</b></p>
+                                        <p>Aplicación de scrum en proyectos de desarrollo de software</p>
+                                        <a href="/Doc/scrum.pdf" target="_blank"">Ver</a>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="card">
+                                <div class="face face1">
+                                    <div class="content">
+                                        <img src="/imagenes/estudios/misiontic.jpg" alt="">
+                                        <h3>Desarrollo Web</h3>
+                                    </div>
+                                </div>
+                                <div class="face face2">
+                                    <div class="content">
+                                        <p><b>Misión Tic 2022 - Universidad Industrial Santander</b></p>
+                                        <p><b>2022</b></p><br>
+                                        <p>Desarrollo de software con profundización en desarrollo web</p>
+                                        <a href="/Doc/misiontic.pdf" target="_blank"">Ver</a>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="card">
+                                <div class="face face1">
+                                    <div class="content">
+                                        <img src="/imagenes/estudios/one.png" alt="">
+                                        <h3>Desarrollo FrontEnd</h3>
+                                    </div>
+                                </div>
+                                <div class="face face2">
+                                    <div class="content">
+                                        <p><b>Oracle + Alura Latam</b></p>
+                                        <p><b>2023</b></p><br>
+                                        <p>Formación FrontEnd</p>
+                                        <p>Formación Habilidades Blandas</p>
+                                        <a href="/Doc/one.pdf" target="_blank"">Ver</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="face face1">
+                                    <div class="content">
+                                        <img src="/imagenes/estudios/testing.jpg" alt="">
+                                        <h3>Software Testing </h3>
+                                    </div>
+                                </div>
+                                <div class="face face2">
+                                    <div class="content">
+                                        <p><b>Udemy</b></p>
+                                        <p><b>2023</b></p><br>
+                                        <p>Software Testing desde cero.</p><br>
+                                        <a href="/Doc/testing.pdf" target="_blank"">Ver</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+        
+        
+        <!--HABILIDADES-->
+
+        <section id="habilidades">
+            <div class="descripcion">
+                <p class="titulo-seccion">Habilidades</p>
+                <p> A través de las diferentes experiencias laborales y de estudio he podido adquirir y reforzar tanto habilidades técnicas como soft skills asi: </p>
+            </div>
+
+            <div class="profile">
+                <div class="photo">
+                <img src="/imagenes/SkillSoft/blandas.jpg"/>
+                </div>
+                    <div class="contentenido">
+                        <div class="text">
+                            <h3>Soy</h3>
+                        </div>
+                    <div class="btn"><span></span></div>
+                    </div>
+                <div class="box"><img src="/imagenes/SkillSoft/productivo.png"><img src="/imagenes/SkillSoft/empatia.png"><img src="/imagenes/SkillSoft/creatividad.png"><img src="/imagenes/SkillSoft/responsabilidad.png"><img src="/imagenes/SkillSoft/organizacion.png">
+                </div>
+                <div class="box1"><h6>Productivo</h6><h6>Empático</h6><h6>Creativo</h6><h6>Comprometido</h6><h6>Metódico</h6></div>
+            </div>
+
+            <div class="profile3">
+                <div class="photo3">
+                <img src="/imagenes/habilidades.svg"/>
+                </div>
+                    <div class="contentenido3">
+                        <div class="text3">
+                            <h3>Habilidades Técnicas</h3>
+                        </div>
+                    <div class="btn3"><span></span></div>
+                    </div>
+                <div class="box3"> <img src="/imagenes/html.svg"><img src="/imagenes/css.svg"><img src="/imagenes/javascript.svg"><img src="/imagenes/react.svg"><img src="/imagenes/git.png">
+                </div>
+                </div>
+        
+           
+            <div class="profile2">
+                <div class="photo2">
+                <img src="/imagenes/habilidades.svg"/>
+                </div>
+                    <div class="contentenido2">
+                        <div class="text2">
+                            <h3>Habilidades Técnicas</h3>
+                        </div>
+                    <div class="btn2"><span></span></div>
+                    </div>
+                <div class="box2"><img src="/imagenes/postman.png"><img src="/imagenes/visual.png"><img src="/imagenes/github.svg"><img src="/imagenes/scrum.png">
+                </div>
+            </div>
+
+            <div class="profile4">
+                <div class="photo4">
+                <img src="/imagenes/SkillSoft/blandas.jpg"/>
+                </div>
+                    <div class="contentenido4">
+                        <div class="text4">
+                            <h3>Puedo y Tengo</h3>
+                        </div>
+                    <div class="btn4"><span></span></div>
+                    </div>
+                <div class="box4"><img src="/imagenes/SkillSoft/trabajo-en-equipo.png"><img src="/imagenes/SkillSoft/resolucionproblemas.png"><img src="/imagenes/SkillSoft/aprendizaje.png"><img src="/imagenes/SkillSoft/gestion-del-tiempo.png"><img src="/imagenes/SkillSoft/iniciativa.png">
+                </div>
+                <div class="box4_1"><h6>Trabajar en Equipo</h6><h6>Pensamiento Analítico</h6><h6>Aprendizaje Continuo</h6><h6>Gestión del Tiempo</h6><h6>Iniciativa</h6>
+                </div>
+
+            </div>
+        
+            
+            </div>
+                  
+            
+                
+        </section>
+           
+
+        <!--PROYECTOS-->
+
+        <section id="proyectos">
+            <div class="descripcion">
+                <p class="titulo-seccion">Proyectos</p>
+                <p> Estos son algunos de los proyectos desarrollados en las diferentes experiencias educativas.....</p>
+            </div>
+                  
+            <div class="container">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="/imagenes/proyectos/encriptador.png" alt="">
+                            <h3>Encriptador</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p><b>Encriptador de palabras</b></p><br>
+                            <p>Desarrollado como challenge en el programa ONE, al finalizar el curso de principios de programación.</p>
+                            <a href="https://app.netlify.com/teams/julianrg1512-tzlezro/sites" target="_blank">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="/imagenes/proyectos/Checklist.png" alt="">
+                            <h3>CheckList</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p><b>CheckList</b></p><br>
+                            <p>Desarrollado durante el proceso de formación de JavaScript en el programa ONE.</p> 
+                            <a href="https://app.netlify.com/teams/julianrg1512-tzlezro/sites" target="_blank"">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="/imagenes/proyectos/portafolio.png" alt="">
+                            <h3>CheckList</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p><b>Portafolio Personal</b></p><br>
+                            <p>Proyecto personal, al finalizar los cursos de Html y Css del programa ONE.</p> 
+                            <a href="https://app.netlify.com/teams/julianrg1512-tzlezro/sites" target="_blank"">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+<!--
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="/imagenes/portafolio.svg" alt="">
+                            <h3>Portafolio</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Este es el contenido de la tarjeta</p>
+                            <a href="https://app.netlify.com/teams/julianrg1512-tzlezro/sites" target="_blank"">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="/imagenes/ecomerce.svg" alt="">
+                            <h3>E-Commerce</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Este es el contenido de la tarjeta</p>
+                            <a href="https://app.netlify.com/teams/julianrg1512-tzlezro/sites" target="_blank"">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="/imagenes/ecomerce.svg" alt="">
+                            <h3>E-Commerce</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Este es el contenido de la tarjeta</p>
+                            <a href="https://app.netlify.com/teams/julianrg1512-tzlezro/sites" target="_blank"">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            -->
+            </div>
+        </section>
+
+        <!-- SECCIÓN C O N T A C T O -->
+       
+        <section id="contacto">
+            <h3 class="titulo-seccion">Contáctame</h3>
+            <div class="contenedor-form">
+                <form action="">
+
+                    <div class="fila">
+                        <input type="text" placeholder=" Nombre Completo *" class="controls">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="email" placeholder="Dirección de Email" class="controls">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="text" placeholder="Tema..." class="controls">
+                        <i class="fa-solid fa-file-circle-question"></i>
+                        <textarea  class="mensaje" name="" id="" cols="30" rows="5" placeholder="Tu Mensaje..." ></textarea>
+                        <i class="fa-regular fa-message"></i>
+                    </div>
+                    <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                </form>
+            </div>
+        </section>
+        
+</main>   
+
+        <!--el footer es el pie de pagina donde va información de contacto y redes sociales-->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">Julian Rodríguez Gómez</h2>
+                    
+                </div>
+                
+                <div class="social-links">
+                    <a href="mailto:julianrg11@hotmail.com" class="email"><i class="bi bi-envelope-at"></i></a>
+                    <a href="https://github.com/JulianRG1512" target="_blank" class="github"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/juli%C3%A1n-rodr%C3%ADguez-g%C3%B3mez/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://wa.me/573012736389" target="_blank" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="line"></div>
+        </footer>
+
+    
+    <script src="/JS/menu.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src="/JS/script.js"></script>
+    
+    
+    
+</body>
+</html>
