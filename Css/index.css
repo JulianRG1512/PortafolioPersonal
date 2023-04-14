@@ -176,7 +176,7 @@
         }
 
  /* *********************/
-        /* seccion S O B R E  M I */
+        /* sección S O B R E  M I */
         /* *********************/
         
         #sobremi {
@@ -335,17 +335,7 @@
         #sobremi .sobremi .btn-slide span.title-hover {
             color: #fff;
         }
-        .sobremi .codigo-qr {
-            max-width: 150px;
-            margin-left: 540px;
-            
-        }
         
-        .sobremi .codigo-qr img {
-            padding: 1px;
-            width: 100%;
-            
-        }
 
         /*ESTUDIOS*/
 
@@ -1138,16 +1128,7 @@
             
         }
 
-        .sobremi .codigo-qr {
-            max-width: 100px;
-            margin-left: 100px;
-        }
         
-        .sobremi .codigo-qr img {
-            padding: 1px;
-            width: 100%;
-            background-color: #f3f3f3;
-        }
 
         #sobremi .sobremi .titulo-seccion {
             text-align: center;

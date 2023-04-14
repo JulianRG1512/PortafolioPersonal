@@ -16,8 +16,7 @@
 </head>
 
 <body>
-    
-    <!-- SECCION I N I C I O -->
+ <!-- SECCIÓN I N I C I O -->
     <section id="inicio">
         <div class="contenido">
             <header>
@@ -59,7 +58,7 @@
     
     <main>
 
-        <!-- SECCIÓN S O B R E M I -->
+        <!-- SECCIÓN SOBREMI -->
     <section id="sobremi">
         <div class="contenedor-foto">
             <img src="/imagenes/fotoperfil.png" alt="">
@@ -70,7 +69,7 @@
             <h3>Fecha de Nacimiento: 10/06/1980</h3> <img class="bandera" src="/imagenes/colombia.png" alt="">
             <h3><b>Ingeniero de Sistemas</b></h3>
             <p>Con experiencia en auditoria interna de gestión en el sector público, lo que me ha permitido adquirir habilidades como, <b> pensamiento analítico, diplomacia en la comunicación, integridad, objetividad , trabajo en equipo, aprendizaje continuo, redacción,</b> entre otras.</p>
-            <p> Ex-participante de MisiónTic 2022 y actual participante del programa ONE (Oracle Next Education), impartido por Oracle y Alura Latam con el fin de formarme como desarrollador de software que es mi gran pasión y a lo que deseo dedicarme de tiempo completo, estas experiencias me han permitido adquirir conocimientos en: <b> Fundamentos de Programación, Desarrollo de Software, JavaScript, Html, Css, React, Git, Postman, Visual Studio Code, Selenium ID, Jira y metodología ágil Scrum,</b> asi mismo me han permitido ponerlas en práctica mediante los diferentes challenges
+            <p> Ex-participante de MisiónTic 2022 y actual participante del programa ONE (Oracle Next Education), impartido por Oracle y Alura Latam con el fin de formarme como desarrollador de software que es mi gran pasión y a lo que deseo dedicarme de tiempo completo; estas experiencias me han permitido adquirir conocimientos en: <b> Fundamentos de Programación, Desarrollo de Software, JavaScript, Html, Css, React, Git, Postman, Visual Studio Code, Selenium ID, Jira y metodología ágil Scrum,</b> asi mismo me han permitido ponerlas en práctica mediante los diferentes challenges
                 desarrollados, adicional a las habilidades técnicas adquiridas, he reforzado y adquirido nuevas soft skills.</p>
             <div id="wrap">
                 <a href="/Doc/CV_JulianRodriguezGomez.pdf" class="btn-slide" target="_blank">
@@ -79,14 +78,12 @@
                 <span class="title-hover">Click Aquí</span>
                 </a>
             </div>   
-            <div class="codigo-qr" >
-                <img id="qr" src="imagenes/qr-CVJulianRG.png" alt="">
-            </div>  
         </div>
-        
     </section>
 
-                    <section id="estudios">
+    <!--SECCIÓN ESTUDIOS-->
+
+            <section id="estudios">
                         <div class="descripcion">
                             <p class="titulo-seccion">Estudios</p>
                             <p> Cuento con estudios profesionales y cursos en:</p>
@@ -106,7 +103,6 @@
                                         <p><b>2012</b></p><br>
                                         <p>Ingeniero de Sistemas.</p>
                                         <a href="/Doc/Diploma.pdf" target="_blank"">Ver</a>
-                                        
                                     </div>
                                 </div>
                             </div>
@@ -200,8 +196,7 @@
                                     </div>
                                 </div>
                             </div>
-
-                        </section>
+            </section>
         
         
         <!--HABILIDADES-->
@@ -272,12 +267,8 @@
                 </div>
 
             </div>
-        
-            
             </div>
                   
-            
-                
         </section>
            
 
@@ -394,13 +385,13 @@
                 <form name="contacto" netlify>
 
                     <div class="fila">
-                        <input type="text" name="nombre" placeholder=" Nombre Completo *" class="controls">
+                        <input type="text" name="nombre" placeholder=" Nombre Completo *" class="controls" required>
                         <i class="fa-regular fa-user"></i>
-                        <input type="email" name="email" placeholder="Dirección de Email" class="controls">
+                        <input type="email" name="email" placeholder="Dirección de Email" class="controls" required>
                         <i class="fa-regular fa-envelope"></i>
                         <input type="text"  name="tema" placeholder="Tema..." class="controls">
                         <i class="fa-solid fa-file-circle-question"></i>
-                        <textarea  class="mensaje" name="mensaje" id="" cols="30" rows="5" placeholder="Tu Mensaje..." ></textarea>
+                        <textarea  class="mensaje" name="mensaje" id="" cols="30" rows="5" placeholder="Tu Mensaje..." required></textarea>
                         <i class="fa-regular fa-message"></i>
                     </div>
                     <input type="submit" value="Enviar Mensaje" class="btn-enviar">
