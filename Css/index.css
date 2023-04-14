@@ -255,8 +255,8 @@
         }
         
         #sobremi .sobremi #wrap {
-            margin-top: 100px;
-            margin-bottom: 50px;
+            margin-top: 5px;
+            margin-bottom: 10px;
             text-align: center;
         
         }
@@ -336,8 +336,8 @@
             color: #fff;
         }
         .sobremi .codigo-qr {
-            max-width: 100px;
-            margin-left: 550px;
+            max-width: 150px;
+            margin-left: 540px;
             
         }
         
