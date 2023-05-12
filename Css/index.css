@@ -244,9 +244,10 @@
         
         #sobremi .sobremi p {
             font-size: 14px;
-            line-height: 25px;
+            line-height: 35px;
             color: #565656;
             margin-bottom: 30px;
+            text-align: justify;
         }
         
         #sobremi .sobremi a:hover i::after{
@@ -376,6 +377,8 @@
             padding: 10px 35px ;
         }
 
+        
+
         #estudios .container .card{
             position: relative;
             cursor: pointer;
@@ -463,6 +466,7 @@
             color: #fff;
         }
 
+        
         
 
 /*HABILIDADES*/
